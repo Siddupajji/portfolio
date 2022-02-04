@@ -1,0 +1,6 @@
+.port-detail-wrap .row .leftside {
+    position: -webkit-sticky;
+    height: 600px;
+    overflow-y: scroll;
+    width: 90%;
+}
