@@ -10,6 +10,8 @@ import { GraphicComponent } from './graphic/graphic.component';
 import { ApplicationComponent } from './application/application.component';
 import { SmmComponent } from './smm/smm.component';
 import { PhotoComponent } from './photo/photo.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -26,7 +28,9 @@ import { PhotoComponent } from './photo/photo.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
 
   ],
   providers: [],
