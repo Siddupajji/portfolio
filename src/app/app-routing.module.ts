@@ -1,3 +1,4 @@
+import { RadioComponent } from './radio/radio.component';
 import { PhotoComponent } from './photo/photo.component';
 import { SmmComponent } from './smm/smm.component';
 import { GraphicComponent } from './graphic/graphic.component';
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'photo',
     component: PhotoComponent
+  },
+  {
+    path: 'radio',
+    component: RadioComponent
   }
 
 ];

@@ -12,6 +12,7 @@ import { SmmComponent } from './smm/smm.component';
 import { PhotoComponent } from './photo/photo.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { RadioComponent } from './radio/radio.component';
 
 
 
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     GraphicComponent,
     ApplicationComponent,
     SmmComponent,
-    PhotoComponent
+    PhotoComponent,
+    RadioComponent
   ],
   imports: [
     BrowserModule,
