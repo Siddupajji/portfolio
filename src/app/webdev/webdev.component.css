@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+.fixed-bg {
+    display: block;
+    width: 109vw;
+    margin: auto;
+}
+
 .port-detail-img2 a h2 {
     font-family: 'Rowdies', cursive;
     text-align: center;
