@@ -13,7 +13,6 @@
 }
 
 .port-detail-img2 a h2 {
-    font-family: 'Rowdies', cursive;
     text-align: center;
     color: rgb(2, 5, 37);
     animation: blink-animation 1s steps(5, start) infinite;
@@ -21,9 +20,12 @@
     margin-top: 15px;
     cursor: pointer;
     font-size: 20px;
+    font-weight: 600;
 }
 
-@keyframes blink-animation {
+
+/*
+@keyframes blink-animatio {
     to {
         visibility: hidden;
     }
@@ -45,4 +47,4 @@
     to {
         visibility: hidden;
     }
-}
+} */
