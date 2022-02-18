@@ -1,5 +1,6 @@
 .fixed-bg {
-    display: block;
-    width: 109vw;
-    margin: auto;
+    background-image: url(../../assets/banners/smm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
 }

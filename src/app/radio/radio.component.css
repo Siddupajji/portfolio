@@ -42,15 +42,31 @@
 }
 
 @media screen and (max-width: 412px) {
-    .videosection {
+    .player {
         display: block;
         margin: auto;
+        margin-top: 10px;
+    }
+    .videosection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .videosection {
+    .player {
         display: block;
         margin: auto;
+        margin-top: 10px;
+    }
+    .videosection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
