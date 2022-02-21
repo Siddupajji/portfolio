@@ -34,4 +34,9 @@
         top: -101px;
         z-index: 1;
     }
+    .port-detail-img2 a {
+        margin: auto;
+        width: 289px;
+        margin-bottom: 15px;
+    }
 }
