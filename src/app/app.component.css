@@ -1,0 +1,11 @@
+@media screen and (max-width: 840px) {
+    #myfoot {
+        margin-top: -300px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    #myfoot {
+        margin-top: -300px;
+    }
+}
