@@ -5,6 +5,13 @@
     flex-wrap: wrap;
 }
 
+.fixed-bg {
+    background-image: url(../../assets/out.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+}
+
 .videosection {
     width: 100%;
     display: flex;
