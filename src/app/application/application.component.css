@@ -1,42 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-.port-detail-img2 a h3 {
-    font-family: 'Rowdies', cursive;
-    text-align: center;
-    color: rgb(2, 5, 37);
-    animation: blink-animation 1s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
-    margin-top: 15px;
-    cursor: pointer;
-    font-size: 15px;
-}
-
-.fixed-bg {
-    background-image: url(../../assets/soft.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%, 100%;
-    background-position: center;
-}
-
-@keyframes blink-animation {
-    to {
-        visibility: hidden;
+    @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+    .port-detail-img2 a h3 {
+        font-family: 'Rowdies', cursive;
+        text-align: center;
+        color: rgb(2, 5, 37);
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+        margin-top: 15px;
+        cursor: pointer;
+        font-size: 15px;
     }
-}
-
-@-webkit-keyframes blink-animation {
-    to {
-        visibility: hidden;
+    
+    .fixed-bg {
+        background-image: url(../../assets/soft.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
     }
-}
-
-@keyframes blink-animation {
-    to {
-        visibility: hidden;
+    
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
     }
-}
-
-@-webkit-keyframes blink-animation {
-    to {
-        visibility: hidden;
+    
+    @-webkit-keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
     }
-}
+    
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+    
+    @-webkit-keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+    
+    @media screen and (max-width: 413px) {
+        .fixed-bg {
+            background-position: center;
+            height: 60%;
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+    }
+    
+    @media screen and (max-width: 840px) {
+        .fixed-bg {
+            background-position: center;
+            height: 60%;
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+    }

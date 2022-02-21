@@ -1,6 +1,32 @@
 .fixed-bg {
     background-image: url(../../assets/banners/smm.jpg);
     background-repeat: no-repeat;
-    background-size: 100%, 100%;
+    background-size: 100% 90%;
     background-position: center;
+}
+
+@media screen and (max-width: 413px) {
+    .fixed-bg {
+        background-position: center;
+        background-size: 100% 55%;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: -101px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .fixed-bg {
+        background-position: center;
+        background-size: 100% 55%;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: -101px;
+        z-index: 1;
+    }
 }
